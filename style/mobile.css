@@ -1,31 +1,185 @@
-
-
-@media screen and (max-width: 1175px) {
+@media screen and (max-width: 568px) {
     .wrap {
         margin: 0;
         width: 100%;
-        height: inherit;
-        min-height: inherit;
-        max-height: inherit;
     }
+
     .column-layout {
-        min-width: 320px;
+        min-width: 320px !important;
         width: 100vw !important;
-        padding-top: 100px !important;
+        padding: 80px 0;
     }
+
+    .column {
+        padding-right: 6vmin;
+    }
+
     .column-center {
-        padding-left: 40px !important; 
+        padding-left: 13vmin !important;
+        padding-right: 13vmin !important;
     }
 
     .column-side {
         min-height: 100vh;
     }
-      
-    /* .column-side {
-         width: 100vw; 
-        order: 1;
+
+    .column-side:first-of-type {
+        padding-right: 8vmin;
+        padding-left: 13vmin;
     }
-    .column-center {
-        order: 3;
-    }  */
+
+    .column-side:last-of-type {
+        padding-right: 8vmin;
+        padding-left: 13vmin;
+    }
+
+    /* ! Секция 1 */
+    /* Аватар */
+    .author-image {
+        width: 50vmin;
+        height: 50vmin;
+    }
+
+    .section-author {
+        margin-bottom: 5vmin;
+    }
+
+    /* ! Текст  */
+    .profile-head-text {
+        font-size: 11.4vmin;
+    }
+
+    .text-main {
+        font-size: 34.5vmin;
+        font-weight: 400;
+        line-height: 1;
+    }
+
+    .regular-text {
+        font-size: 6vmin;
+    }
+
+    .section-contacts h4 {
+        font-size: 6vmin;
+    }
+
+    .contacts-text span {
+        width: 15px;
+        height: 13px;
+    }
+
+    .mail-icon {
+        width: 15px !important;
+        height: 10px !important;
+    }
+
+    .home-icon {
+        width: 15px !important;
+        height: 12px !important;
+    }
+
+    .contacts-link {
+        font-size: 4vmin;
+    }
+
+    /* Profile */
+    .section-profile {
+        margin-bottom: 80px;
+    }
+
+    .center-layout::before {
+        left: -20px;
+    }
+
+    .center-layout .title-text::before {
+        left: -25px;
+    }
+
+    .title-text {
+        font-size: 11.4vmin;
+        margin-bottom: 30px;
+        line-height: 1.4;
+    }
+
+    /* ! Секция 2 */
+
+    /* Текст */
+    .education-line {
+        font-size: 4.7vmin;
+        font-weight: 700;
+        letter-spacing: 0px;
+        line-height: 1.4;
+    }
+
+    .item-paragraph .pragraph-item:first-of-type {
+        font-size: 5vmin;
+    }
+
+    .item-paragraph {
+        margin-bottom: 6vmin;
+        font-size: 6vmin;
+        line-height: 1.4;
+    }
+    .container-flex:last-child > .expeirence-item:last-child > p {
+        margin-bottom: 0;
+    }
+
+    .item-paragraph .pragraph-item:last-child {
+        font-size: 5vmin;
+    }
+
+    .skills-paragraph {
+        font-size: 5vmin;
+    }
+    
+    .skills-flex-item {
+        min-width: 30vmin;
+    }
+
+    .container-flex .skills-flex-item:first-child {
+        margin-right: 9vmin;
+    }
+
+    /* !Секция 3 */
+    /* Текст */
+
+    .title-text::after {
+        width: 45%;
+    }
+
+    .languages-paragraph {
+        font-size: 5vmin;
+    }
+
+    .languages .container-flex:first-of-type {
+        margin-right: 6vmin;
+    }
+
+    .badge {
+        font-size: 5vmin;
+    }
+
+    .socials-link {
+        font-size: 4.5vmin;
+    }
+
+    .link-icon {
+        width: 30px;
+    }
+
+    .follow {
+        right: -100px;
+        font-size: 13vmin;
+    }
+
+    /* !Circle */
+    .circle {
+        width: 14px;
+        height: 14px;
+    }
+
+    .center-layout::before {
+        top: -2.5%;
+        height: 105%;
+    }
 }
