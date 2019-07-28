@@ -21,17 +21,17 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     margin: 0 auto;
     width: 1175px;
     -webkit-box-shadow: -50px 30px 45px -30px #7e7c7c;
-            box-shadow: -50px 30px 45px -30px #7e7c7c;
+    box-shadow: -50px 30px 45px -30px #7e7c7c;
     -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-            box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
     -webkit-box-shadow: 0 0px 12px 4px rgba(0, 0, 0, 0.05);
-            box-shadow: 0 0px 12px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0px 12px 4px rgba(0, 0, 0, 0.05);
     -webkit-box-shadow: 0 1px 25px -2px rgba(0, 0, 0, 0.897);
-            box-shadow: 0 1px 25px -2px rgba(0, 0, 0, 0.897);
+    box-shadow: 0 1px 25px -2px rgba(0, 0, 0, 0.897);
 }
 
 .container-wrap {
@@ -39,10 +39,10 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 
@@ -50,7 +50,7 @@ a:hover {
 .column-layout {
     padding: 125px 0 80px 0;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .column-side {
@@ -177,8 +177,8 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-bottom: 22px;
 }
 
@@ -219,7 +219,7 @@ a:hover {
 }
 
 .phone-icon {
-    background-image: url(../images/phone.png);
+    background-image: url("../images/phone.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -227,27 +227,28 @@ a:hover {
 .mail-icon {
     width: 12px !important;
     height: 8px !important;
-    background-image: url(../images/mail.png);
+    background-image: url("../images/mail.png");
     background-size: contain;
 }
 
 .home-icon {
     width: 12px !important;
     height: 10px !important;
-    background-image: url(../images/home.png);
+    background-image: url("../images/home.png");
     background-size: contain;
 }
 
 /* ! Образование */
-.center-section:not(:last-child), .side-section:first-child {
+.center-section:not(:last-child),
+.side-section:first-child {
     margin-bottom: 80px;
 }
 
 .education .container-wrap {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
 }
 
 .education .container-flex:first-of-type {
@@ -267,8 +268,8 @@ a:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-bottom: 10px;
     color: #4e4e4e;
     font-family: "Solomon Bold", serif;
@@ -332,10 +333,10 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .badge {
@@ -377,8 +378,8 @@ a:hover {
     font-weight: 600;
     letter-spacing: 2px;
     -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-            transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 /* ! Таймлайн */
@@ -408,62 +409,3 @@ a:hover {
     background: #bababa;
     border-radius: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* The height/width ratio for our video */
-/* :root {
-    --ratio: 124 / 175;
-    --width: 98vmin;
-    --height: calc(var(--width) * var(--ratio));
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.slide {
-    background: #fff;
-    border: 1px solid;
-    font-size: 3.5vmin;
-    margin: 1vmin auto;
-    padding: 3vmin;
-    width: var(--width);
-    height: var(--height);
-    text-align: center;
-}
-
-
-h1 {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-h1,
-p {
-    margin-bottom: 3vmin;
-}
-
-img {
-    display: block;
-    margin: 3vmin auto;
-    width: 15vmin;
-}
-
-.bigred {
-    color: red;
-    font-size: 3em;
-} */

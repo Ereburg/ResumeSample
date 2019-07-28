@@ -120,7 +120,8 @@
         font-size: 6vmin;
         line-height: 1.4;
     }
-    .container-flex:last-child > .expeirence-item:last-child > p {
+
+    .container-flex:last-child>.expeirence-item:last-child>p {
         margin-bottom: 0;
     }
 
@@ -131,7 +132,7 @@
     .skills-paragraph {
         font-size: 5vmin;
     }
-    
+
     .skills-flex-item {
         min-width: 30vmin;
     }
