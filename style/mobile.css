@@ -33,6 +33,11 @@
         padding-left: 13vmin;
     }
 
+    .center-section:not(:last-child),
+    .side-section:first-child {
+        margin-bottom: 80px;
+    }
+
     /* ! Секция 1 */
     /* Аватар */
     .author-image {
